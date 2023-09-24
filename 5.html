@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a javascript function to insert a string within a string at a particular position</title>
+</head>
+
+<body>
+    <script>
+        let string = "Meta";
+        let str = "be";
+        let pos = 1;
+
+        function insert(string, str, pos) {
+            return string.slice(0, pos) + str + string.slice(pos);
+        }
+        console.log(insert(string,str,pos));
+
+    </script>
+
+</body>
+
+</html>

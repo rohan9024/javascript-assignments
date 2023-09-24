@@ -1,0 +1,38 @@
+<html>
+
+<body>
+
+    <script>
+        let java = 80
+        let SEN = 77
+        let CEN = 88
+        let OOP = 95
+        function avg(java, SEN, CEN, OOP) {
+            let average = (java + SEN + CEN + OOP) / 4; 
+            return average;
+        }
+        function grade(avg) {
+            if (avg < 100 && avg > 90) {
+                console.log("A");
+            }
+            else if (avg < 90 && avg > 80) {
+                console.log("B");
+            }
+            else if (avg < 80 && avg > 70) {
+                console.log("C");
+            }
+            else if (avg < 70 && avg > 60) {
+                console.log("D");
+            }
+            else if (avg < 60) {
+                console.log("F");
+            }
+        
+        }
+        const av = avg(java, SEN, CEN, OOP);
+        grade(av);
+
+    </script>
+</body>
+
+</html>
